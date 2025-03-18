@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "hrms_ai_agents",
-# 		"logo": "/assets/hrms_ai_agents/logo.png",
-# 		"title": "HR AI Agents",
-# 		"route": "/hrms_ai_agents",
-# 		"has_permission": "hrms_ai_agents.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "hrms_ai_agents",
+		# "logo": "/assets/hrms_ai_agents/logo.png",
+		"title": "HR AI Agents",
+		"route": "/hrms_ai_agents",
+		# "has_permission": "hrms_ai_agents.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------
@@ -242,3 +242,5 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+# website_route_rules = [{'from_route': '/hrms_ai_agents/<path:app_path>', 'to_route': '_hrms_ai_agents'},{'from_route': '/hrms_ai_agents/', 'to_route': '_hrms_ai_agents'}]
