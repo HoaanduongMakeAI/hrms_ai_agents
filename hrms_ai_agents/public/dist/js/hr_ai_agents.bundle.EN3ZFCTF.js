@@ -36124,10 +36124,10 @@ ${codeFrame}` : message);
     }
   });
 
-  // ../hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents_1/hr_ai_agents_1.bundle.js
+  // ../hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents/hr_ai_agents.bundle.js
   var import_vue3 = __toESM(require_vue());
 
-  // sfc-script:/home/hoaanduong2003/frappe-bench-2/apps/hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents_1/App.vue?type=script
+  // sfc-script:/home/hoaanduong/frappe-bench/apps/hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents/App.vue?type=script
   var import_vue = __toESM(require_vue());
   var App_default = {
     __name: "App",
@@ -36140,9 +36140,9 @@ ${codeFrame}` : message);
     }
   };
 
-  // sfc-template:/home/hoaanduong2003/frappe-bench-2/apps/hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents_1/App.vue?type=template
+  // sfc-template:/home/hoaanduong/frappe-bench/apps/hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents/App.vue?type=template
   var import_vue2 = __toESM(require_vue());
-  var _hoisted_1 = /* @__PURE__ */ (0, import_vue2.createElementVNode)("h4", null, "Start editing at hrms_ai_agents/public/js/hr_ai_agents_1/App.vue", -1);
+  var _hoisted_1 = /* @__PURE__ */ (0, import_vue2.createElementVNode)("h4", null, "Start editing at hrms_ai_agents/public/js/hr_ai_agents/App.vue", -1);
   function render(_ctx, _cache, $props, $setup, $data, $options) {
     return (0, import_vue2.openBlock)(), (0, import_vue2.createElementBlock)("div", null, [
       (0, import_vue2.createElementVNode)("h3", null, (0, import_vue2.toDisplayString)($setup.dynamicMessage), 1),
@@ -36150,13 +36150,13 @@ ${codeFrame}` : message);
     ]);
   }
 
-  // ../hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents_1/App.vue
+  // ../hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents/App.vue
   App_default.render = render;
-  App_default.__file = "../hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents_1/App.vue";
+  App_default.__file = "../hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents/App.vue";
   var App_default2 = App_default;
 
-  // ../hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents_1/hr_ai_agents_1.bundle.js
-  var HrAiAgents1 = class {
+  // ../hrms_ai_agents/hrms_ai_agents/public/js/hr_ai_agents/hr_ai_agents.bundle.js
+  var HrAiAgents = class {
     constructor({ page, wrapper }) {
       this.$wrapper = $(wrapper);
       this.page = page;
@@ -36174,12 +36174,12 @@ ${codeFrame}` : message);
     }
     setup_app() {
       let app = (0, import_vue3.createApp)(App_default2);
-      this.$hr_ai_agents_1 = app.mount(this.$wrapper.get(0));
+      this.$hr_ai_agents = app.mount(this.$wrapper.get(0));
     }
   };
   frappe.provide("frappe.ui");
-  frappe.ui.HrAiAgents1 = HrAiAgents1;
-  var hr_ai_agents_1_bundle_default = HrAiAgents1;
+  frappe.ui.HrAiAgents = HrAiAgents;
+  var hr_ai_agents_bundle_default = HrAiAgents;
 })();
 /*! #__NO_SIDE_EFFECTS__ */
-//# sourceMappingURL=hr_ai_agents_1.bundle.56DZVF2H.js.map
+//# sourceMappingURL=hr_ai_agents.bundle.EN3ZFCTF.js.map

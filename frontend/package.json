@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/assets/hrms_ai_agents/frontend/ && yarn copy-html-entry",
+    "build": "vite build --base=/assets/hrms_ai_agents/hrms_ai_agents/ && yarn copy-html-entry",
     "preview": "vite preview",
-    "copy-html-entry": "cp ../hrms_ai_agents/public/frontend/index.html ../hrms_ai_agents/www/frontend.html"
+    "copy-html-entry": "cp ../hrms_ai_agents/public/hrms_ai_agents/index.html ../hrms_ai_agents/www/hrms_ai_agents.html"
   },
   "dependencies": {
     "socket.io-client": "^4.5.1",

@@ -243,4 +243,4 @@ add_to_apps_screen = [
 # }
 
 
-# website_route_rules = [{'from_route': '/hrms_ai_agents/<path:app_path>', 'to_route': '_hrms_ai_agents'},{'from_route': '/hrms_ai_agents/', 'to_route': '_hrms_ai_agents'}]
+website_route_rules = [{'from_route': '/hrms_ai_agents/<path:app_path>', 'to_route': 'hrms_ai_agents'},{'from_route': '/hrms_ai_agents', 'to_route': 'hrms_ai_agents'}]

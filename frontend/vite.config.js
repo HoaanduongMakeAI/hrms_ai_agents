@@ -17,7 +17,7 @@ export default defineConfig({
 		}
 	},
 	build: {
-		outDir: '../hrms_ai_agents/public/frontend',
+		outDir: '../hrms_ai_agents/public/hrms_ai_agents', // Changed output dir
 		emptyOutDir: true,
 		target: 'es2015',
 	},
