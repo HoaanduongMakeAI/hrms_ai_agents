@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+langchain
+langchain-community
+chromadb
+langchain-google-genai
+# Add other necessary langchain or tool dependencies here later
+beautifulsoup4
+playwright
+google-api-python-client
+markdownify
